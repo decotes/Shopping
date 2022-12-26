@@ -1,0 +1,13 @@
+﻿@model Shopping.Data.Entities.Country
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Crear</h1>
+
+<partial name="_CountryDetails" />
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
